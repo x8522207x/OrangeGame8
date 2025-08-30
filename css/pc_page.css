@@ -1,0 +1,337 @@
+    #plate--page {
+        height: calc(100vh - 92px);
+    }
+
+    section .area__visual ._dimmed {
+        background-image: url(../img/pc/s1_bg.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    section .area__visual ._dimmed {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .area .area__visual {
+        background-size: cover;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        overflow: hidden;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    .area,
+    .area .area__visual {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    section.area {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        min-height: 980px;
+        height: 100%;
+    }
+
+    .area {
+        background-size: initial;
+        position: relative;
+    }
+
+    section .area__content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-start;
+        margin: unset;
+    }
+
+    section.area .area__content,
+    section.area .area__content>* {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    section.area .area__content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        min-height: inherit;
+    }
+
+    .area .area__content {
+        position: relative;
+        z-index: 2;
+    }
+
+    section .area__content .area__content__wrap {
+        margin-left: auto;
+        justify-content: flex-start;
+        margin: unset;
+    }
+
+    section .area__content>:not(.layout-escape) {
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    section.area .area__content .area__content__wrap {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+    }
+
+    section.area ._header {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .area__content ._header ._title {
+        background-image: url(../img/pc/s1_title.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 408px;
+        -webkit-text-size-adjust: none;
+        aspect-ratio: 229/100;
+    }
+
+    section .area__content ._header ._period {
+        background-image: url(../img/pc/s1_date.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 452px;
+        height: 23px;
+    }
+
+    section .area__content ._content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    section .area__content ._content div {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    section .area__content ._content ._item_right {
+        background-image: url(../img/pc/block-right.png);
+        width: 616px;
+        height: 535px;
+    }
+
+    section .area__content ._content ._item_right .btn_up {
+        background-image: url(../img/pc/btn-reward.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 214px;
+        aspect-ratio: 107 / 30;
+        position: relative;
+        left: 370px;
+        top: 200px;
+    }
+
+    section .area__content ._content ._item_right .btn_up:hover {
+        background-image: url(../img/pc/btn-reward_hover.png);
+    }
+
+    section .area__content ._content ._item_right .btn_down {
+        background-image: url(../img/pc/btn-live.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 214px;
+        aspect-ratio: 107 / 30;
+        position: relative;
+        left: 150px;
+        top: 450px;
+    }
+
+    section .area__content ._content ._item_right .btn_down:hover {
+        background-image: url(../img/pc/btn-live_hover.png);
+    }
+
+    section .area__content ._content ._item_left {
+        background-image: url(../img/pc/block-left.png);
+        width: 472px;
+        height: 535px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    section .area__content ._content ._item_left .btn_left {
+        background-image: url(../img/pc/btn-reserve.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400.5px;
+        height: 72px;
+        position: relative;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    section .area__content ._content ._item_left .btn_left_down {
+        background-image: url(../img/pc/btn-newworld.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 214px;
+        height: 60px;
+        position: relative;
+        margin-left: 129px;
+        margin-top: 90px;
+        margin-bottom: -140px;
+    }
+
+    section .area__content ._content ._item_left .btn_left_down:hover {
+        background-image: url(../img/pc/btn-newworld_hover.png);
+    }
+
+    section .area__content .detail {
+        background-image: url(../img/pc/btn-update.png);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-sizing: border-box;
+        height: 156.5px;
+        width: 374px;
+        -webkit-text-size-adjust: none;
+        padding-top: 100px;
+        margin-top: 100px;
+    }
+
+    section .area__content .detail:hover {
+        background-image: url(../img/pc/btn-update_hover.png);
+    }
+
+    .phone-input-container {
+        display: flex;
+        align-items: center;
+        border: #cfab65 solid 2px;
+        background-color: #111;
+        color: #fff;
+        padding: 8px 10px;
+        border-radius: 3px;
+        width: 395px;
+        margin-left: 30px;
+    }
+
+    .phone-input-container select {
+        background: transparent;
+        border: none;
+        color: #cfab65;
+        font-family: "Noto Serif TC", serif;
+        font-size: 18px;
+        margin-right: 10px;
+        outline: none;
+        border-right: 1px solid #cfab65;
+        width: 115px;
+    }
+
+    .phone-input-container input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: #f5e7bd;
+    }
+
+    .phone-input-container input::placeholder {
+        color: #f5e7bd;
+        font-family: "Noto Serif TC", serif;
+        font-size: 18px;
+    }
+
+    .agreement {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #cdd8f2;
+        margin-left: 30px;
+    }
+
+    .agreement input {
+        margin-right: 5px;
+    }
+
+    .privacyPolicy {
+        border-bottom: 1px solid;
+        border-color: #cfab65
+    }
+
+    .modal {
+        display: none;
+        /* 預設隱藏 */
+        font-family: "Noto Serif TC", serif;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* 半透明背景 */
+    }
+
+    /* 彈窗內容 */
+    .modal-content {
+        background-color: #000;
+        color: #c7bfb3;
+        text-align: center;
+        margin: 15% auto;
+        padding: 30px 20px;
+        border-radius: 8px;
+        width: 80%;
+        max-width: 400px;
+        font-size: 22px;
+    }
+
+    /* 按鈕 */
+    #modalConfirm {
+        font-family: "Noto Serif TC", serif;
+        margin-top: 20px;
+        background: transparent;
+        color: #cfab65;
+        /* 金色字 */
+        border: 1px solid #cfab65;
+        /* 金色邊框 */
+        padding: 8px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #modalConfirm:hover {
+        background: #cfab65;
+        color: #000;
+    }
