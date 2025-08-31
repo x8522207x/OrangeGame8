@@ -89,6 +89,7 @@
   section .area__content ._header ._period {
     width: 257.25px;
     height: 35.25px;
+    margin-top: 0px;
   }
 
   section .area__content ._content ._item_right {
@@ -142,15 +143,15 @@
   }
 
   section .area__content ._content ._item_right .btn_up {
-    width: 140.5px;
-    left: 102px;
-    top: 237px;
+    width: 127.5px;
+    left: 108px;
+    top: 250px;
   }
 
   section .area__content ._content ._item_right .btn_down {
-    width: 140.5px;
-    left: -42px;
-    top: 527px;
+    width: 128.5px;
+    left: -24px;
+    top: 522px;
   }
 
   section .area__content .detail {

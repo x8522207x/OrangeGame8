@@ -126,6 +126,7 @@
         background-size: contain;
         width: 452px;
         height: 23px;
+        margin-top: -30px;
     }
 
     section .area__content ._content {
@@ -155,8 +156,8 @@
         width: 214px;
         aspect-ratio: 107 / 30;
         position: relative;
-        left: 370px;
-        top: 200px;
+        left: 368px;
+        top: 214px;
     }
 
     section .area__content ._content ._item_right .btn_up:hover {
@@ -172,7 +173,7 @@
         aspect-ratio: 107 / 30;
         position: relative;
         left: 150px;
-        top: 450px;
+        top: 443px;
     }
 
     section .area__content ._content ._item_right .btn_down:hover {
@@ -201,6 +202,10 @@
         margin-top: 30px;
     }
 
+    section .area__content ._content ._item_left .btn_left:hover {
+        background-image: url(../img/pc/btn-reserve_hover.png);
+    }
+
     section .area__content ._content ._item_left .btn_left_down {
         background-image: url(../img/pc/btn-newworld.png);
         background-position: 50% 50%;
@@ -227,8 +232,8 @@
         height: 156.5px;
         width: 374px;
         -webkit-text-size-adjust: none;
-        padding-top: 100px;
-        margin-top: 100px;
+        padding-top: 50px;
+        margin-top: 50px;
     }
 
     section .area__content .detail:hover {
