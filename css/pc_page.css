@@ -196,10 +196,10 @@
         background-repeat: no-repeat;
         background-size: contain;
         width: 400.5px;
-        height: 72px;
+        aspect-ratio: 89 / 16;
         position: relative;
-        margin-left: 30px;
-        margin-top: 30px;
+        margin-left: 37px;
+        margin-top: 58px;
     }
 
     section .area__content ._content ._item_left .btn_left:hover {
@@ -212,11 +212,11 @@
         background-repeat: no-repeat;
         background-size: contain;
         width: 214px;
-        height: 60px;
+        aspect-ratio: 107 / 30;
         position: relative;
-        margin-left: 129px;
-        margin-top: 90px;
-        margin-bottom: -140px;
+        margin-left: 133px;
+        margin-top: 63px;
+        margin-bottom: -137px;
     }
 
     section .area__content ._content ._item_left .btn_left_down:hover {
