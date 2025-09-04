@@ -6,15 +6,15 @@ $(document).ready(() => {
     }));
 
     $('.event_gnb_gamestart').on('click', () => {
-        window.open("https://galaxy.beanfun.com/webapi/view/login/twp?redirect_url=https://warsofprasia.beanfun.com/Main");
+        window.open("https://galaxy.beanfun.com/webapi/view/login/twp?redirect_url=https://warsofprasia.beanfun.com/Main", "_blank");
     });
 
     $('.btn_up').on('click', () => {
-        window.open("https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=14398");
+        window.open("https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=14398", "_blank");
     });
 
     $('.btn_down').on('click', () => {
-        window.open("https://www.youtube.com/@user-warsofprasia");
+        window.open("https://www.youtube.com/@user-warsofprasia", "_blank");
     });
 
     $('.btn_left').on('click', () => {
@@ -58,16 +58,16 @@ $(document).ready(() => {
     });
 
     $('.btn_left_down').on('click', () => {
-        window.open("https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20250916K/index.html");
+        window.open("https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20250916K/index.html?redirect=1", "_blank");
     });
 
     $('.detail').on('click', () => {
-        window.open("https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20250916K/index.html");
+        window.open("https://tw.hicdn.beanfun.com/beanfun/promo/TWP/20250916K/index.html", "_blank");
     });
 
     $('.privacyPolicy').on('click', (e) => {
         e.preventDefault();
-        window.open("https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=10199");
+        window.open("https://warsofprasia-event.beanfun.com/EventAD/EventAD?eventAdId=10199", "_blank");
     });
 
     $('#modalConfirm').on('click', () => {
@@ -99,12 +99,12 @@ $(document).ready(() => {
         const country = $countryCode.val();
         const number = $phoneNumber.val();
 
-        if (country === "+852" || country === "+853") {
+        if (country === "852" || country === "853") {
             // 香港 / 澳門
             if (number.length !== 8) {
                 return { valid: false };
             }
-        } else if (country === "+886") {
+        } else if (country === "886") {
             // 台灣
             if (number.length === 9) {
                 // ✅ 合法 (e.g. 912345678)
@@ -126,10 +126,12 @@ $(document).ready(() => {
     }
 
     function getDbPhoneNumber() {
+        const $countryCode = $("#countryCode");
+        const $phoneNumber = $("#phoneNumber");
         const country = $countryCode.val();
         let number = $phoneNumber.val();
 
-        if (country === "+886" && number.length === 10 && number.startsWith("0")) {
+        if (country === "886" && number.length === 10 && number.startsWith("0")) {
             number = number.substring(1); // 去掉開頭 0
         }
 

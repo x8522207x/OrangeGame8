@@ -3,7 +3,7 @@
     }
 
     section .area__visual ._dimmed {
-        background-image: url(../img/pc/s1_bg.png);
+        background-image: url(../img/pc/s1_bg.webp);
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -143,7 +143,7 @@
     }
 
     section .area__content ._content ._item_right {
-        background-image: url(../img/pc/block-right.png);
+        background-image: url(../img/pc/block-right.webp);
         width: 616px;
         height: 535px;
     }
